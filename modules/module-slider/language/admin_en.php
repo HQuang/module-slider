@@ -18,3 +18,14 @@ $lang_translator['langtype'] = 'lang_module';
 $lang_module['main'] = 'Main';
 $lang_module['config'] = 'Config';
 $lang_module['save'] = 'Save';
+
+//Lang for function main
+$lang_module['edit'] = 'edit';
+$lang_module['delete'] = 'Delete';
+$lang_module['number'] = 'Number';
+$lang_module['active'] = 'Trạng thái';
+$lang_module['search_title'] = 'Enter keywords searching';
+$lang_module['search_submit'] = 'Search';
+$lang_module['title'] = 'Title';
+$lang_module['note'] = 'Note';
+$lang_module['error_required_title'] = 'Error: Required fields enter the Title';

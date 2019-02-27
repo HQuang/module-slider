@@ -10,3 +10,4 @@
 if ( ! defined( 'NV_SYSTEM' ) ) die( 'Stop!!!' );
 
 define( 'NV_IS_MOD_MODULE_SLIDER', true );
+require_once NV_ROOTDIR . '/modules/' . $module_file . '/global.functions.php';
