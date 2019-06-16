@@ -36,3 +36,14 @@ $lang_module['type_slider'] = 'Loại slider';
 $lang_module['type_slider_1'] = 'Loại 1';
 $lang_module['type_slider_2'] = 'Loại 2';
 $lang_module['type_slider_3'] = 'Loại 3';
+
+//Lang for function rows
+$lang_module['rows'] = 'rows';
+$lang_module['alias'] = 'Alias';
+$lang_module['content'] = 'Nội dung';
+
+//Lang for function rows-items
+$lang_module['rows-items'] = 'rows-items';
+$lang_module['row_id'] = 'Row id';
+$lang_module['image'] = 'Image';
+$lang_module['error_required_config'] = 'Lỗi: bạn cần nhập dữ liệu cho Cấu hình';

@@ -11,7 +11,7 @@ if ( ! defined( 'NV_IS_MOD_MODULE_SLIDER' ) ) die( 'Stop!!!' );
 
 /**
  * nv_theme_module_slider_main()
- * 
+ *
  * @param mixed $array_data
  * @return
  */
@@ -21,8 +21,8 @@ function nv_theme_module_slider_main ( $array_data )
 
     $xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file );
     $xtpl->assign( 'LANG', $lang_module );
+    $xtpl->assign( 'TEMPLATE', $global_config['site_theme'] );
 
-    
 
     $xtpl->parse( 'main' );
     return $xtpl->text( 'main' );
@@ -30,7 +30,7 @@ function nv_theme_module_slider_main ( $array_data )
 
 /**
  * nv_theme_module_slider_detail()
- * 
+ *
  * @param mixed $array_data
  * @return
  */
@@ -41,7 +41,7 @@ function nv_theme_module_slider_detail ( $array_data )
     $xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file );
     $xtpl->assign( 'LANG', $lang_module );
 
-    
+
 
     $xtpl->parse( 'main' );
     return $xtpl->text( 'main' );
@@ -49,7 +49,7 @@ function nv_theme_module_slider_detail ( $array_data )
 
 /**
  * nv_theme_module_slider_search()
- * 
+ *
  * @param mixed $array_data
  * @return
  */
@@ -60,7 +60,7 @@ function nv_theme_module_slider_search ( $array_data )
     $xtpl = new XTemplate( $op . '.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/' . $module_file );
     $xtpl->assign( 'LANG', $lang_module );
 
-    
+
 
     $xtpl->parse( 'main' );
     return $xtpl->text( 'main' );

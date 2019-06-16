@@ -29,3 +29,14 @@ $lang_module['search_submit'] = 'Search';
 $lang_module['title'] = 'Title';
 $lang_module['note'] = 'Note';
 $lang_module['error_required_title'] = 'Error: Required fields enter the Title';
+
+//Lang for function rows
+$lang_module['rows'] = 'rows';
+$lang_module['alias'] = 'Alias';
+$lang_module['content'] = 'Content';
+
+//Lang for function rows-items
+$lang_module['rows-items'] = 'rows-items';
+$lang_module['row_id'] = 'Row id';
+$lang_module['image'] = 'Image';
+$lang_module['error_required_config'] = 'Error: Required fields enter the Config';
